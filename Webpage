@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8" />
+<title> index.html </title>
+<style>
+body  {
+	background: #00CED1; 
+	margin: 0;
+	padding: 0;
+	font-family: "Verdana";
+}
+#wrapper {
+	width: 960px;
+	height: auto;
+	background: #66CDAA;
+	border-left: 5px solid #2F4F4F; 
+	border-right: 5px solid #2F4F4F; 
+	overflow: auto;
+	margin: 0 auto;
+	padding: 10px;
+}
+#header {
+	width: 100%;
+	height: 100px;
+	border-bottom: 3px solid #2F4F4F;
+}
+#logo {
+	float: left;
+	margin: 15px 0px 0px 0px; 
+}
+#social {
+	float: right;
+	margin: 25px 30px 0px 0px;
+}
+#social ul li {
+	float: left;
+	list-style: none;
+	padding-right: 15px; 
+}
+#social img {
+	height: 55px;
+	width: 55px; 
+}
+#sidebar {
+	float: left;
+	width: 275px;
+	height: 100%;
+	background-color: #A9A9A9;
+}
+#menu ul{
+	float: left;
+	height: auto;
+	width: 200px;
+}
+#menu ul li{
+	list-style: none;
+	padding: 5px;
+	text-align: center; 
+}
+#menu ul li a {
+	background: #00CED1;
+	color: #4E4F3E;
+	text-decoration: none; 
+	padding: 10px 0px; 
+	display: block; 
+}
+#menu ul li a:hover {
+	color: #fff; 
+}
+#content {
+	float: left; 
+	width: 655px; 
+	height: 100%; 
+	padding-left: 15px;
+	letter-spacing: 1;
+	color: #57574C;
+	border-left: 3px solid #2F4F4F;
+}
+h1 {
+	text-align: center; 
+	padding: 5px;
+	border-bottom: 1px solid;
+}
+p {
+	text-indent: 50px; 
+	line-height: 25px; 
+}
+img {
+	float: right; 
+	padding: 0px 0px 5px 5px; 
+}
+.top a {
+	color: #4E4F3E;
+	text-decoration: none; 
+}
+#table {
+	margin: 0px 150px 30px 150fpx;
+	
+}
+#footer {
+	clear: both; 
+	width: 100%; 
+	height: 80px; 
+	color: #57574C; 
+	border-top: 3px solid #7C7063;
+	text-decoration: none; 
+}
+h5 {
+	text-align: center;
+}
+</style>
+</head>
+
+
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<a name="top"></a>
+		<div id="logo">
+			<img src="Images/Main Logo.JPG" width= "350" height= "80" alt="logo" title="Minature Schnauzer" />
+	
+		</div> <!--End of Logo-->
+		<div id="social">
+			<ul>
+				<li><a href="http://www.facebook.com" target="_blank"><img src="Images/Facebook.png" alt="Facebook" title="Facebook"/></a></li>
+				<li><a href="http://www.twitter.com" target="_blank"><img src="Images/Twitter.png" alt="Twitter" title="Twitter"/></a></li>
+				<li><a href="https://www.youtube.com/channel/UCHMQQ94UaX2N0KG2iiy_Bcg" target="_blank"><img src="Images/youtube.png" alt="youtube" title="youtube"/></a></li>
+			</ul>
+		</div> <!--End of Social-->
+	</div> <!--End of Header-->
+	<div id="sidebar">
+		<div id="menu">
+			<ul>
+				<li><H2><a href="#Home">Home</a></H2></li>
+				<li><H2><a href="#Interesting Facts">Interesting Facts</a></H2></li>
+				<li><H2><a href="#History">History</a></H2></li>
+				<li><H2><a href="#My Lovely Schnauzer">My Lovely Schnauzer</a></H2></li>
+			</ul>
+		</div> <!--End of Menu-->
+	</div> <!--End of Sidebar-->
+	<div id="content">
+		<a name="Home"><h1> Home </h1>
+			<img src="Images/MiniGIF.GIF" width="400" height="250" alt="Schnauzer Puppies" title="Puppies" 
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<div class="top"><H4><a href="#top">Top of Page</a></H4></div>
+		<a name="Interesting Facts"><h1> Interesting Facts </h1>
+			<img src="Images/Dog 4.JPG" width="400" height="250" alt="Schnauzer Puppies" title="Puppies" />
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<div class="top"><H4><a href="#top">Top of Page</a></H4></div>
+		<a name="History"><h1> History </h1>
+			<img src="Images/Dog 4.JPG" width="400" height="250" alt="Schnauzer Puppies" title="Puppies" />
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<div class="top"><H4><a href="#top">Top of Page</a></H4></div>
+		<a name="My Lovely Schnauzer"><h1> My Lovely Schnauzer </h1>
+			<img src="Images/Dog 4.JPG" width="400" height="250" alt="Schnauzer Puppies" title="Puppies" />
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<div class="top"><H4><a href="#top">Top of Page</a></H4></div>
+				<div id="table">
+					<table border="2">
+						<tr>
+							<th>Walking Schedule1</th>
+							<th>Walking Schedule2</th>
+							<th>Walking Schedule3</th>
+						</tr>
+						<tr>
+							<th>Walking Schedule4</th>
+							<th>Walking Schedule5</th>
+							<th>Walking Schedule6</th>
+						</tr>
+						<tr>
+							<th>Walking Schedule7</th>
+							<th>Walking Schedule8</th>
+							<th>Walking Schedule9</th>
+						</tr>
+					</table>
+				</div> <!--End of Table-->
+	</div> <!--End of Content-->
+	<div id="footer">
+		<h5> Erik Lawson's Web Page Project</br> <a href="mailto:ehl11674@uga.edu subject-Webpage">Send me an Email!</a> </h5>
+</div> <!--End of wrapper-->
+
+</body>
+
+
+</html>
